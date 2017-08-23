@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Microkart.iml" filepath="$PROJECT_DIR$/Microkart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microkart-master.iml" filepath="$PROJECT_DIR$/Microkart-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WITTY.iml" filepath="$PROJECT_DIR$/WITTY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "174442182453",
+    "firebase_url": "https://microkart-90fae.firebaseio.com",
+    "project_id": "microkart-90fae",
+    "storage_bucket": "microkart-90fae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174442182453:android:4ccdcf46949aff17",
+        "android_client_info": {
+          "package_name": "shopping.microkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174442182453-h1090ur49dphhtq3fue1fsscmth1mebs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopping.microkart",
+            "certificate_hash": "2883f4ba40aa4bcc4f5948f20478a02860fa8cf2"
+          }
+        },
+        {
+          "client_id": "174442182453-r5veauf822lv2fn5jn43c65guom4n0jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopping.microkart",
+            "certificate_hash": "67f9ad1966a8c88cc85c629a50e16c3ec773e1b5"
+          }
+        },
+        {
+          "client_id": "174442182453-onu8v31vfu4ovv6j9dbngimpijjlh3g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnv511TczYWXBe-auyBaPWe_IgmFwbKzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174442182453-onu8v31vfu4ovv6j9dbngimpijjlh3g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

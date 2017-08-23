@@ -31,8 +31,31 @@
             android:textColorHighlight="@color/colorAccent"/>
     </android.support.design.widget.TextInputLayout>
 
-    <info.hoang8f.widget.FButton
+    <Button
         android:id="@+id/sign_in_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:text="I'm User"
+        android:textSize="24sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/sign_in_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:text="I'm Seller"
+        android:textSize="24sp" />
+
+   <!-- <info.hoang8f.widget.FButton
+        android:id="@+id/sign_in_user1"
         style="?android:textAppearanceSmall"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -63,7 +86,7 @@
         fbutton:shadowColor="@color/colorAccentDark"
         fbutton:shadowEnabled="true"
         fbutton:shadowHeight="1dp"
-        fbutton:cornerRadius="2dp"/>
+        fbutton:cornerRadius="2dp"/>-->
 
     <LinearLayout
         android:id="@+id/SHIMMERTEXTVIEWS"
@@ -73,102 +96,37 @@
 
         <com.romainpiel.shimmer.ShimmerTextView
             android:id="@+id/Tagline"
-            android:text="E-COMMERCE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
-            android:fontFamily="serif"
-            android:textSize="30sp"
-            app:reflectionColor="@color/colorAccent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="E-COMMERCE"
+            android:textColor="@color/colorWhite"
+            android:textSize="36sp"
+            app:reflectionColor="@color/colorAccent" />
+
         <com.romainpiel.shimmer.ShimmerTextView
             android:id="@+id/Tagline2"
-            android:text="WITH A"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
             android:fontFamily="serif"
-            android:textSize="20sp"
-            app:reflectionColor="@color/colorAccent"
-            android:layout_gravity="center_horizontal" />
+            android:text="FOR"
+            android:textColor="@color/colorWhite"
+            android:textSize="36sp"
+            app:reflectionColor="@color/colorAccent" />
+
         <com.romainpiel.shimmer.ShimmerTextView
             android:id="@+id/Tagline3"
-            android:text="DIFFERENCE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
             android:fontFamily="serif"
+            android:text="MICRO BUSINESS"
+            android:textColor="@color/colorWhite"
             android:textSize="40sp"
-            app:reflectionColor="@color/colorAccent"
-            android:layout_gravity="center_horizontal" />
+            app:reflectionColor="@color/colorAccent" />
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Made By"
-        android:id="@+id/textView"
-        android:textColor="@color/colorWhite"
-        android:fontFamily="serif"
-        android:textSize="20sp"
-        android:layout_marginTop="50dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gautam Prajapati"
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/colorWhite"
-        android:fontFamily="serif"
-        android:textSize="20sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="(brainbreaker)"
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/colorWhite"
-        android:fontFamily="serif"
-        android:textSize="20sp"/>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/fb"
-        android:background="#00fffefe"
-        android:src="@drawable/fb"/>
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/gmail"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/gmail"
-        android:background="#00fffefe"
-        android:layout_marginLeft="10dp" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/linkedin"
-        android:layout_gravity="center_vertical"
-        android:background="#00fffefe"
-        android:src="@drawable/linked"
-        android:layout_marginLeft="10dp" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/github"
-        android:layout_gravity="center_vertical"
-        android:src="@drawable/github"
-        android:background="#00fffefe"
-        android:layout_marginLeft="10dp" />
-    </LinearLayout>
 </LinearLayout>
